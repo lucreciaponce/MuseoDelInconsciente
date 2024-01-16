@@ -1,0 +1,136 @@
+/* HOME PAGE*/
+
+/*NAV*/
+#navcolor{
+    background-color: white;
+}
+.logo{
+    width: 48px;
+    border-radius: 50%;
+}
+.nav-link:hover{
+    filter: drop-shadow(0 0 5px #dad7d7);
+}
+
+
+/*MAIN*/
+.carousel-item{
+    height: 450px;
+    /*hay que adaptarlo según el tamaño del dispositivoooo*/
+}
+.carousel-item > img{
+    opacity: 0.7;
+    object-fit: cover;
+}
+
+
+/*QUIENES SOMOS*/
+.verNosotros{
+    width: max-content;
+
+}
+
+
+/*ARTISTAS*/
+.card{
+    height: max-content;
+}
+.card > img{
+    height: 250px;
+    object-fit: contain;
+}
+.card-body{
+    text-align: center;
+}
+.card-body > a{
+    padding: 5px;
+    font-size: smaller;
+    width: max-content;
+}
+.card-text{
+    font-style: italic;
+    color: grey;
+    margin-bottom: 8px;
+}
+.texto-collapse{
+    font-size: smaller;
+}
+.carouselArtistas > .carousel-inner > .carousel-item{
+    height: max-content;
+    /*hay que adaptarlo según el tamaño del dispositivoooo*/
+}
+.carouselArtistas > .carousel-inner > .carousel-item > img{
+    opacity: 1;
+    object-fit: cover;
+}
+
+
+/*FOOTER*/
+/*
+ESTO sirve si el footer es fixed-bottom.
+#contacto{
+    padding-bottom: 80px;
+}
+*/
+#footer{
+    background-color: white;
+}
+
+
+
+
+/* PRUEBA PARA EL ARTISTAS */
+
+#main-joel{
+    position: absolute;
+    top: 200px;
+
+}
+
+@media (max-width: 768px) {
+    footer > div > div{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*
+FOOTER PEVIO A APLICAR CAMBIOS PARA PENSARLO DESDE MOBILE A PC
+    <footer id="footer" class="container-fluid pt-2 fixed-bottom border-top border-secondary">
+        <div class="row px-5 mb-3">
+            <div class="col-8 d-flex align-items-center">
+                <p class="mb-0">© 2023 Museo. All rights reserved.</p>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+                <a href="#" class="text-dark text-decoration-none">
+                    Suscripciones
+                </a>
+            </div>
+            <div class="col-2">
+                <div class="btn-group dropup">
+                    <a class="text-decoration-none text-dark dropdown-toggle" type="button" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                        Redes Sociales
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="text-center pb-3">
+                            Foros
+                        </li>
+                        <li>
+                            <div class="list-unstyled d-flex px-4 justify-content-between">
+                                <a class="text-decoration-none text-dark" href="https://www.youtube.com/" target="_blank">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                                <a class="text-decoration-none text-dark" href="https://www.instagram.com/" target="_blank">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a class="text-decoration-none text-dark" href="https://www.facebook.com/" target="_blank">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+*/
